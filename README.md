@@ -1,6 +1,6 @@
 - I’m @LugolBis
 - I work with 🐍 Python 🐍
-- How to reach me : look to the top.
+- To contact me : ld.desmares@gmail.com
 
 <!---
 LugolBis/LugolBis is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
