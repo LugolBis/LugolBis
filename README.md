@@ -1,5 +1,5 @@
 - I’m @LugolBis
-- I work with 🐍 Python 🐍
+- I work with Python, SQL, JavaScript, HTML, CSS, R, Rust
 - To contact me : ld.desmares@gmail.com
 
 <!---
