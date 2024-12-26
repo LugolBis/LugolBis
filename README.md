@@ -13,16 +13,22 @@ I'm LugolBis, a 20 yo. french student who's learning computer science.
 
 ## 🖋️ Languages
 
+![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=SQL&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=PL/SQL&logoColor=white)
+![OQL](https://img.shields.io/badge/OQL-%231572B6.svg?style=for-the-badge&logo=OQL&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+<br>
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![Scilab](https://img.shields.io/badge/scilab-%23Dfffff.svg?style=for-the-badge&logo=scilab&logoColor=white)
+![Lex](https://img.shields.io/badge/lex-%23323330.svg?style=for-the-badge&logo=lex=%23F7DF1E)
+<br>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-#### SQL  |  PL/SQL  |  SQL3  |  OQL  |  Scilab  |  Lex/Flex
 
 ## 💾 Databases
 
@@ -37,7 +43,9 @@ I'm LugolBis, a 20 yo. french student who's learning computer science.
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-#### BERTopic | Hugging Face
+<br>
+![BERTopic](https://img.shields.io/badge/bertopic-%23150458.svg?style=for-the-badge&logo=bertopic&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23ffffff.svg?style=for-the-badge&logo=Hugging%20Face&logoColor=black)
 
 ## 💻 Operating System
 
@@ -76,6 +84,7 @@ I'm LugolBis, a 20 yo. french student who's learning computer science.
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
 ![LibreOffice](https://img.shields.io/badge/LibreOffice-%2318A303?style=for-the-badge&logo=LibreOffice&logoColor=white)
+<br>
 ![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
 ![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Miro](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white)
