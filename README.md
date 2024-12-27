@@ -1,12 +1,12 @@
 
 # 🔭 About me 
-I'm LugolBis, a 20 yo. french student who's learning computer science. 
+I'm LugolBis, a 20 yo. french student who's learning computer science.
+
+I enjoy **Database** and **Machine learning**.
 
 ## 🌐 Socials
 
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
-
-
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/desmares-loïc-332855275)
 <br>
 
 # 🛠️ Tech Stack
@@ -66,7 +66,14 @@ I'm LugolBis, a 20 yo. french student who's learning computer science.
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
+![TextBlob](https://img.shields.io/badge/TextBlob-%23ffffff.svg?style=for-the-badge&logo=TextBlob&logoColor=black)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+<br>
+[![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
+[![Gradio](https://img.shields.io/badge/Gradio-%23F9A825.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
+[![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
+<br>
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
