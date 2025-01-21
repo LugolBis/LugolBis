@@ -17,9 +17,10 @@ I enjoy **Database** and **Machine learning**.
 ![PL/SQL](https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=PL/SQL&logoColor=white)
 ![OQL](https://img.shields.io/badge/OQL-%231572B6.svg?style=for-the-badge&logo=OQL&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+<br>
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 <br>
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![Scilab](https://img.shields.io/badge/scilab-%23Dfffff.svg?style=for-the-badge&logo=scilab&logoColor=white)
@@ -41,6 +42,7 @@ I enjoy **Database** and **Machine learning**.
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+<br>
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 <br>
@@ -68,12 +70,16 @@ I enjoy **Database** and **Machine learning**.
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
 ![TextBlob](https://img.shields.io/badge/TextBlob-%23ffffff.svg?style=for-the-badge&logo=TextBlob&logoColor=black)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 <br>
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Gradio](https://img.shields.io/badge/Gradio-%23F9A825.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+<br>
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) 
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)
 <br>
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
