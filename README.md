@@ -13,10 +13,11 @@ I enjoy **Database** and **Machine learning**.
 
 ## 🖋️ Languages
 
-![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=SQL&logoColor=white)
-![PL/SQL](https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=PL/SQL&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1.svg?style=for-the-badge&logo=SQL&logoColor=white)
+![PL/SQL](https://img.shields.io/badge/PL/SQL-F80000?style=for-the-badge&logo=PL/SQL&logoColor=white)
+![Cypher](https://img.shields.io/badge/Cypher-ffffff?style=for-the-badge&color=7ad1ff)
 <br>
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
@@ -31,8 +32,10 @@ I enjoy **Database** and **Machine learning**.
 
 ## 💾 Databases
 
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Oracle Database](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
 
 ## 🤖 ML/DL
 
@@ -70,8 +73,9 @@ I enjoy **Database** and **Machine learning**.
 ![TextBlob](https://img.shields.io/badge/TextBlob-%23ffffff.svg?style=for-the-badge&logo=TextBlob&logoColor=black)
 <br>
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
-[![Gradio](https://img.shields.io/badge/Gradio-%23F9A825.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
+![Serde_json](https://img.shields.io/badge/Serde__json-ffffff?style=for-the-badge&color=000000)
+[![Gradio](https://img.shields.io/badge/Gradio-%23F9A825.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 <br>
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
