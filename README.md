@@ -59,10 +59,12 @@ I enjoy **Database** and **Machine learning**.
 
 ## 📚 Areas Studied
 
--  #### Database
+-  #### Databases
 -  #### Data Structures and Algorithms
 -  #### Language Theory and Compilation
 -  #### System programming
+-  #### Networks
+-  #### Cryptography
 -  #### Computer Architecture
 
 ## 🚀 Frameworks / Libraries / Tools
