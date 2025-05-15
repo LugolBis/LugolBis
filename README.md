@@ -43,7 +43,7 @@ I enjoy **Database** and **Machine learning**.
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![BERTopic](https://img.shields.io/badge/bertopic-%23150458.svg?style=for-the-badge&logo=bertopic&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23ffffff.svg?style=for-the-badge&logo=Hugging%20Face&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/hugging%20face-FFAC04?logo=huggingface&logoColor=black&style=for-the-badge)
 
 ## 💻 Operating System
 
@@ -68,6 +68,7 @@ I enjoy **Database** and **Machine learning**.
 ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) 
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white&style=for-the-badge)
+![Tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
 
 ## 🧰 IDEs/Editors
 
