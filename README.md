@@ -2,7 +2,7 @@
 # 🔭 About me 
 I'm LugolBis, a 20 yo. french student who's learning computer science.
 
-I enjoy **Database** and **Machine learning**.
+I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ## 🌐 Socials
 
@@ -40,9 +40,9 @@ I enjoy **Database** and **Machine learning**.
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![Polars](https://img.shields.io/badge/polars-0075ff?style=for-the-badge&logo=polars&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![BERTopic](https://img.shields.io/badge/bertopic-%23150458.svg?style=for-the-badge&logo=bertopic&logoColor=white)
+![TextBlob](https://img.shields.io/badge/TextBlob-%23ffffff.svg?style=for-the-badge&logo=TextBlob&logoColor=black)
 ![Hugging Face](https://img.shields.io/badge/hugging%20face-FFAC04?logo=huggingface&logoColor=black&style=for-the-badge)
 
 ## 💻 Operating System
@@ -56,13 +56,17 @@ I enjoy **Database** and **Machine learning**.
 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
-![TextBlob](https://img.shields.io/badge/TextBlob-%23ffffff.svg?style=for-the-badge&logo=TextBlob&logoColor=black)
 [![Gradio](https://img.shields.io/badge/Gradio-%23F9A825.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Plotly Dash](https://img.shields.io/badge/plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+<br>
+
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Ratatui](https://img.shields.io/badge/Ratatui-%23F9A825.svg?style=for-the-badge&logo=ratatui&logoColor=white)](https://ratatui.rs/)
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
 ![Serde_json](https://img.shields.io/badge/Serde__json-ffffff?style=for-the-badge&color=000000)
-![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
+<br>
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
