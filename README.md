@@ -64,6 +64,7 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Ratatui](https://img.shields.io/badge/Ratatui-%23F9A825.svg?style=for-the-badge&logo=ratatui&logoColor=white)](https://ratatui.rs/)
+[![Dioxus](https://img.shields.io/badge/Dioxus-00a9d7?style=for-the-badge&color=00a9d7)](https://dioxuslabs.com/)
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
 ![Serde_json](https://img.shields.io/badge/Serde__json-ffffff?style=for-the-badge&color=000000)
 <br>
