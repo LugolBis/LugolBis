@@ -23,10 +23,6 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=tensorflow,pytorch,polars,pandas,numpy,ollama,huggingface)
 
-## 💻 Operating System
-
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows)
-
 ## 🚀 Frameworks / Libraries
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=flask,gradio,matplotlib)
@@ -41,10 +37,13 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
 ![Serde_json](https://img.shields.io/badge/Serde__json-ffffff?style=for-the-badge&color=000000)
 
-
 ## ⚙️​ Tools
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=git,githubactions,githubpages,virtualbox)
+
+## 💻 Operating System
+
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows)
 
 ## 🧰 IDEs/Editors
 
