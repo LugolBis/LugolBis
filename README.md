@@ -13,7 +13,7 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ## 🖋️ Languages
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,r,bash,powershell,js,html,css)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,r,bash,powershell,js,html,css&perline=7)
 
 ## 💾 Databases
 
