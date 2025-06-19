@@ -35,8 +35,6 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Plotly Dash](https://img.shields.io/badge/plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
-<br>
-
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Ratatui](https://img.shields.io/badge/Ratatui-%23F9A825.svg?style=for-the-badge&logo=ratatui&logoColor=white)](https://ratatui.rs/)
 [![Dioxus](https://img.shields.io/badge/Dioxus-00a9d7?style=for-the-badge&color=00a9d7)](https://dioxuslabs.com/)
