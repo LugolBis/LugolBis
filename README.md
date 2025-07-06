@@ -51,4 +51,4 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ## 🔍 Misc
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=powerpoint,miro,typst,latex)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=powerpoint,miro,typst,latex,teams)
