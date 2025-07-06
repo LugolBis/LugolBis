@@ -43,11 +43,11 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ## 💻 Operating System
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows,apple)
 
 ## 🧰 IDEs/Editors
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,googlecolab,jupyter,replit,sublime)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,vscodium,googlecolab,jupyter,replit,sublime)
 
 ## 🔍 Misc
 
