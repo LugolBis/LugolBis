@@ -39,7 +39,7 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ## ⚙️​ Tools
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=git,githubactions,githubpages,virtualbox)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox,git,githubactions,githubpages)
 
 ## 💻 Operating System
 
