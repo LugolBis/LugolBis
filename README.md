@@ -2,7 +2,7 @@
 # 🔭 About me 
 I'm LugolBis, a 20 yo. french student who's learning computer science.
 
-I enjoy **Databases**, **Machine learning** and **Rust**.
+I enjoy **Data**, **AI** and **Rust**.
 
 ## 🌐 Socials
 
@@ -15,9 +15,9 @@ I enjoy **Databases**, **Machine learning** and **Rust**.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,r,bash,powershell,js,html,css&perline=7)
 
-## 💾 Databases
+## 💾 Databases & Data Lakehouse
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,sqlite)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,sqlite,dremio)
 
 ## 🤖 ML/DL
 
