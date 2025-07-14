@@ -13,23 +13,21 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 🖋️ Languages
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,r,bash,powershell,js,html,css&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,java,plsql,r,bash,powershell,js,html,css&perline=7)
 
 ## 💾 Databases & Data Lakehouse
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,sqlite,dremio)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,sqlite,dremio&perline=7)
 
 ## 🤖 ML/DL
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=tensorflow,pytorch,polars,pandas,numpy,ollama,huggingface)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=tensorflow,pytorch,polars,pandas,numpy,ollama,huggingface&perline=7)
 
 ## 🚀 Frameworks / Libraries
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=flask,gradio,matplotlib)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=flask,gradio,matplotlib,plotly&perline=7)
 
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Plotly Dash](https://img.shields.io/badge/plotly-3F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Ratatui](https://img.shields.io/badge/Ratatui-%23F9A825.svg?style=for-the-badge&logo=ratatui&logoColor=white)](https://ratatui.rs/)
@@ -39,16 +37,16 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## ⚙️​ Tools
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox,git,githubactions,githubpages)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox,githubactions,githubpages,maven,npm&perline=7)
 
 ## 💻 Operating System
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows,apple)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows,apple&perline=7)
 
 ## 🧰 IDEs/Editors
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,vscodium,googlecolab,jupyter,replit,sublime)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,vscodium,googlecolab,jupyter,replit,sublime&perline=7)
 
 ## 🔍 Misc
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=powerpoint,miro,typst,latex,teams)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=miro,typst,latex,markdown,powerpoint,teams&perline=7)
