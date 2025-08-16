@@ -28,12 +28,10 @@ I enjoy **Data**, **AI** and **Rust**.
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=flask,gradio,matplotlib,plotly&perline=7)
 
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
-![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white)
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
 [![Ratatui](https://img.shields.io/badge/Ratatui-%23F9A825.svg?style=for-the-badge&logo=ratatui&logoColor=white)](https://ratatui.rs/)
 [![Dioxus](https://img.shields.io/badge/Dioxus-00a9d7?style=for-the-badge&color=00a9d7)](https://dioxuslabs.com/)
 [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)
-![Serde_json](https://img.shields.io/badge/Serde__json-ffffff?style=for-the-badge&color=000000)
 
 ## ⚙️​ Tools
 
