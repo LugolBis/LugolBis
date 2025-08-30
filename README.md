@@ -15,7 +15,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,java,plsql,r,bash,powershell,js,html,css&perline=7)
 
-## 💾 Databases & ETL Tools & LakeHouses
+## 💾 Databases / ETL Tools / LakeHouses
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,dbtlabs,sqlite,dremio&perline=7)
 
@@ -40,7 +40,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows,apple&perline=7)
 
-## 🧰 IDEs/Editors
+## 🧰 IDEs / Editors
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=vscode,vscodium,googlecolab,jupyter,replit,sublime&perline=7)
 
