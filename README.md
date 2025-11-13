@@ -25,7 +25,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 🚀 Frameworks / Libraries
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=flask,gradio,matplotlib,plotly,ratatui&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=spark,gradio,plotly,matplotlib,ratatui,flask&perline=7)
 
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
