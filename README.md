@@ -15,9 +15,9 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=rust,python,java,plsql,r,bash,powershell,js,html,css&perline=7)
 
-## 💾 Databases / ETL Tools / LakeHouses
+## 💾 Databases / Data tools
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,dbtlabs,sqlite,dremio&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=postgres,oracle,mysql,neo4j,duckdb,sqlite,dremio,spark,dbtlabs&perline=7)
 
 ## 🤖 ML/DL
 
@@ -25,7 +25,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 🚀 Frameworks / Libraries
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=spark,gradio,plotly,matplotlib,ratatui,flask&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit,gradio,plotly,matplotlib,ratatui,flask&perline=7)
 
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
