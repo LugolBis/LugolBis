@@ -1,8 +1,8 @@
 
 # 🔭 About me 
-I'm LugolBis, a 20 yo. french student who's learning computer science.
+I'm LugolBis, a 21 yo. french student who's learning computer science.
 
-I enjoy **Data**, **AI** and **Rust**.
+I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 ## 🌐 Socials
 
@@ -25,7 +25,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 🚀 Frameworks / Libraries
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit,gradio,plotly,matplotlib,ratatui,flask&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=streamlit,gradio,plotly,matplotlib,dask,ratatui,flask&perline=7)
 
 ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)
 [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/)
@@ -38,7 +38,7 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 💻 Operating System
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=popos,ubuntu,windows,apple&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=cachyos,windows,apple,popos,ubuntu&perline=7)
 
 ## 🧰 IDEs / Editors
 
@@ -46,4 +46,4 @@ I enjoy **Data**, **AI** and **Rust**.
 
 ## 🔍 Misc
 
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=miro,typst,latex,markdown,powerpoint,teams&perline=7)
+![My Skills](https://go-skill-icons.vercel.app/api/icons?i=latex,markdown,powerpoint,teams,miro,typst&perline=7)
