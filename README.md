@@ -14,8 +14,8 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 |Advanced||Proficient||Intermediate|
 |:-:|-|:-:|-|:-:|
-|![Advanced](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,java)||![Proficient](https://go-skill-icons.vercel.app/api/icons?i=bash,powershell,js)||![Intermediate](https://go-skill-icons.vercel.app/api/icons?i=html,css,r)|
-|[Rust](https://rust-lang.org/) \| [Python](https://python.org/) \| [PL/SQL](https://www.oracle.com/database/technologies/appdev/plsql.html) \| [Java](https://www.java.com/)||[Bash](https://www.gnu.org/software/bash/) \| [PowerShell](https://learn.microsoft.com/powershell/) \| [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript)||[HTML](https://developer.mozilla.org/docs/Web/HTML) \| [CSS](https://developer.mozilla.org/docs/Web/CSS) \| [R](https://www.r-project.org/)|
+|![Advanced](https://go-skill-icons.vercel.app/api/icons?i=rust,python,plsql,java)||![Proficient](https://go-skill-icons.vercel.app/api/icons?i=scala,bash,powershell,js)||![Intermediate](https://go-skill-icons.vercel.app/api/icons?i=html,css,r)|
+|[Rust](https://rust-lang.org/) \| [Python](https://python.org/) \| [PL/SQL](https://www.oracle.com/database/technologies/appdev/plsql.html) \| [Java](https://www.java.com/)||[Scala](https://www.scala-lang.org/) \| [Bash](https://www.gnu.org/software/bash/) \| [PowerShell](https://learn.microsoft.com/powershell/) \| [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript)||[HTML](https://developer.mozilla.org/docs/Web/HTML) \| [CSS](https://developer.mozilla.org/docs/Web/CSS) \| [R](https://www.r-project.org/)|
 
 ## Data Engineering
 
@@ -26,8 +26,8 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 |Processing||Lakehouse|
 |:-:|-|:-:|
-|![Data tools](https://go-skill-icons.vercel.app/api/icons?i=spark,dbtlabs,polars)||![Lakehouse](https://go-skill-icons.vercel.app/api/icons?i=dremio)|
-|[Apache Spark](https://spark.apache.org/) \| [dbt](https://www.getdbt.com/) \| [Polars](https://pola.rs/)||[Dremio](https://www.dremio.com/)|
+|![Data tools](https://go-skill-icons.vercel.app/api/icons?i=spark,kafka,dbtlabs,polars)||![Lakehouse](https://go-skill-icons.vercel.app/api/icons?i=dremio)|
+|[Spark](https://spark.apache.org/) \| [Kafka](https://kafka.apache.org/) \| [dbt](https://www.getdbt.com/) \| [Polars](https://pola.rs/)||[Dremio](https://www.dremio.com/)|
 
 ## AI
 
