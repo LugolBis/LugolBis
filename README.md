@@ -29,6 +29,13 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 |![Data tools](https://go-skill-icons.vercel.app/api/icons?i=spark,kafka,dbtlabs,polars)||![Lakehouse](https://go-skill-icons.vercel.app/api/icons?i=dremio)|
 |[Spark](https://spark.apache.org/) \| [Kafka](https://kafka.apache.org/) \| [dbt](https://www.getdbt.com/) \| [Polars](https://pola.rs/)||[Dremio](https://www.dremio.com/)|
 
+## DevOps / Tooling
+
+| Containers || CI/CD || Build Tools |
+|:-:|-|:-:|-|:-:|
+| ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64)|
+| [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
+
 ## AI
 
 |ML/DL||DS Libs||LLM Ops|
@@ -54,13 +61,6 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 |:-:|
 |![Terminal UI](https://go-skill-icons.vercel.app/api/icons?i=ratatui) [![Macroquad](https://img.shields.io/badge/Macroquad-DD1200?style=for-the-badge&logo=Macroquad&logoColor=white)](https://macroquad.rs/) [![Dioxus](https://img.shields.io/badge/Dioxus-00a9d7?style=for-the-badge&color=00a9d7)](https://dioxuslabs.com/) [![Egui](https://img.shields.io/badge/Egui-217346?style=for-the-badge&logo=egui&logoColor=white)](https://crates.io/crates/egui)|
 |[Ratatui](https://ratatui.rs/) \| [Macroquad](https://macroquad.rs/) \| [Dioxus](https://dioxuslabs.com/) \| [egui](https://github.com/emilk/egui)|
-
-## DevOps / Tooling
-
-| Containers || CI/CD || Build Tools |
-|:-:|-|:-:|-|:-:|
-| ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64)|
-| [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
 
 ## Operating System
 
