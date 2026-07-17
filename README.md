@@ -1,5 +1,5 @@
 # - About me -
-I'm LugolBis, a 21 yo. french student who's learning computer science.
+I'm LugolBis, french student who's learning computer science.
 
 I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
@@ -31,17 +31,17 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 ## DevOps / Tooling
 
-| Containers || CI/CD || Build Tools |
-|:-:|-|:-:|-|:-:|
-| ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64)|
-| [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
+| Version Control || Containers || CI/CD || Build Tools |
+|:-:|-|:-:|-|:-:|-|:-:|
+| ![Version Control](https://go-skill-icons.vercel.app/api/icons?i=git,github,gitlab) || ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64) |
+| [Git](https://git-scm.com/) \| [GitHub](https://github.com/) \| [GitLab](https://gitlab.com/) || [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
 
 ## AI
 
 |ML/DL||DS Libs||LLM Ops|
 |:-:|-|:-:|-|:-:|
-|![ML/DL](https://go-skill-icons.vercel.app/api/icons?i=tensorflow,pytorch)||![DS Libs](https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy)||![LLM Ops](https://go-skill-icons.vercel.app/api/icons?i=ollama,huggingface)|
-|[TensorFlow](https://tensorflow.org/) \| [PyTorch](https://pytorch.org/)||[Pandas](https://pandas.pydata.org/) \| [NumPy](https://numpy.org/)||[Ollama](https://ollama.com/) \| [Hugging Face](https://huggingface.co/)|
+|![ML/DL](https://go-skill-icons.vercel.app/api/icons?i=tensorflow,pytorch)||![DS Libs](https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy)||![LLM Ops](https://go-skill-icons.vercel.app/api/icons?i=huggingface,ollama)|
+|[TensorFlow](https://tensorflow.org/) \| [PyTorch](https://pytorch.org/)||[Pandas](https://pandas.pydata.org/) \| [NumPy](https://numpy.org/)||[Hugging Face](https://huggingface.co/) \| [Ollama](https://ollama.com/)|
 
 ## Visualization
 
