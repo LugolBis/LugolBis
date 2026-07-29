@@ -19,15 +19,20 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 ## Data Engineering
 
-|Relational (SQL)||NoSQL|
-|:-:|-|:-:|
-|![SQL](https://go-skill-icons.vercel.app/api/icons?i=oracle,postgres,mysql,duckdb,sqlite)||![NoSQL](https://go-skill-icons.vercel.app/api/icons?i=neo4j)|
-|[Oracle](https://www.oracle.com/database/) \| [PostgreSQL](https://postgresql.org/) \| [MySQL](https://mysql.com/) \| [DuckDB](https://duckdb.org/) \| [SQLite](https://sqlite.org/)||[Neo4j](https://neo4j.com/)|
+|Relational (SQL)|
+|:-:|
+|![SQL](https://go-skill-icons.vercel.app/api/icons?i=oracle,postgres,mysql,duckdb,sqlserver,sqlite)|
+|[Oracle](https://www.oracle.com/database/) \| [PostgreSQL](https://postgresql.org/) \| [MySQL](https://mysql.com/) \| [DuckDB](https://duckdb.org/) \| [SQL Server](https://www.microsoft.com/sql-server/) \| [SQLite](https://sqlite.org/)|
 
-|Processing||Lakehouse|
+|Processing||NoSQL|
 |:-:|-|:-:|
-|![Data tools](https://go-skill-icons.vercel.app/api/icons?i=spark,kafka,dbtlabs,polars)||![Lakehouse](https://go-skill-icons.vercel.app/api/icons?i=dremio)|
-|[Spark](https://spark.apache.org/) \| [Kafka](https://kafka.apache.org/) \| [dbt](https://www.getdbt.com/) \| [Polars](https://pola.rs/)||[Dremio](https://www.dremio.com/)|
+|![Data tools](https://go-skill-icons.vercel.app/api/icons?i=spark,kafka,dbtlabs,polars)||![NoSQL](https://go-skill-icons.vercel.app/api/icons?i=neo4j)|
+|[Spark](https://spark.apache.org/) \| [Kafka](https://kafka.apache.org/) \| [dbt](https://www.getdbt.com/) \| [Polars](https://pola.rs/)||[Neo4j](https://neo4j.com/)|
+
+| Orchestration || Cloud ||Lakehouse|
+|:-:|-|:-:|-|:-:|
+| ![Orchestration](https://go-skill-icons.vercel.app/api/icons?i=airflow) || ![Cloud](https://go-skill-icons.vercel.app/api/icons?i=gcp) ||![Lakehouse](https://go-skill-icons.vercel.app/api/icons?i=dremio)|
+| [Apache Airflow](https://airflow.apache.org/) || [Google Cloud Platform](https://cloud.google.com/) ||[Dremio](https://www.dremio.com/)|
 
 ## DevOps / Tooling
 
