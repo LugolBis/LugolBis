@@ -1,11 +1,12 @@
 # - About me -
-I'm LugolBis, french student who's learning computer science.
+I'm **LugolBis**, a French computer science student passionate about building reliable data systems and exploring modern technologies.
 
-I enjoy **Data Engineering**, **Data Quality** and **Rust**.
+My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
 
-## 🌐 Socials
+## 🌐 Profiles
 
 [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=linkedin&perline=5)](https://www.linkedin.com/in/lo%C3%AFc-desmar%C3%A8s-332855275?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUiN2icJCQ6a1RNpz8RsYVg%3D%3D)
+[![Hugging Face](https://go-skill-icons.vercel.app/api/icons?i=huggingface&perline=5)](https://huggingface.co/LugolBis)
 <br>
 
 # - Tech Stack -
