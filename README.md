@@ -19,7 +19,7 @@ I enjoy **Data Engineering**, **Data Quality** and **Rust**.
 
 ## Data Engineering
 
-|Relational (SQL)|
+|Relational Databases (SQL)|
 |:-:|
 |![SQL](https://go-skill-icons.vercel.app/api/icons?i=oracle,postgres,mysql,duckdb,sqlserver,sqlite)|
 |[Oracle](https://www.oracle.com/database/) \| [PostgreSQL](https://postgresql.org/) \| [MySQL](https://mysql.com/) \| [DuckDB](https://duckdb.org/) \| [SQL Server](https://www.microsoft.com/sql-server/) \| [SQLite](https://sqlite.org/)|
