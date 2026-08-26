@@ -22,8 +22,8 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
 
 |Relational Databases (SQL)|
 |:-:|
-|![SQL](https://go-skill-icons.vercel.app/api/icons?i=oracle,postgres,mysql,duckdb,sqlserver,sqlite)|
-|[Oracle](https://www.oracle.com/database/) \| [PostgreSQL](https://postgresql.org/) \| [MySQL](https://mysql.com/) \| [DuckDB](https://duckdb.org/) \| [SQL Server](https://www.microsoft.com/sql-server/) \| [SQLite](https://sqlite.org/)|
+|![SQL](https://go-skill-icons.vercel.app/api/icons?i=oracle,postgres,mysql,duckdb,sqlserver,sqlite,tidb)|
+|[Oracle](https://www.oracle.com/database/) \| [PostgreSQL](https://postgresql.org/) \| [MySQL](https://mysql.com/) \| [DuckDB](https://duckdb.org/) \| [SQL Server](https://www.microsoft.com/sql-server/) \| [SQLite](https://sqlite.org/) \| [TiDB](https://www.pingcap.com/)|
 
 |Processing||NoSQL|
 |:-:|-|:-:|
@@ -60,8 +60,8 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
 
 | Data Apps || Web || Scraping |
 |:-:|-|:-:|-|:-:|
-|![Data Apps](https://go-skill-icons.vercel.app/api/icons?i=streamlit,gradio)||![Web](https://go-skill-icons.vercel.app/api/icons?i=flask)||![Scraping](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)|
-|[Streamlit](https://streamlit.io/) \| [Gradio](https://gradio.app/)||[Flask](https://flask.palletsprojects.com/)||[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)|
+|![Data Apps](https://go-skill-icons.vercel.app/api/icons?i=pydantic,streamlit,gradio)||![Web](https://go-skill-icons.vercel.app/api/icons?i=flask)||![Scraping](https://img.shields.io/badge/BeautifulSoup-050038?style=for-the-badge&logo=BeautifulSoup&logoColor=white)|
+|[Pydantic](https://pydantic.dev/) \| [Streamlit](https://streamlit.io/) \| [Gradio](https://gradio.app/)||[Flask](https://flask.palletsprojects.com/)||[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)|
 
 |Rust Ecosystem|
 |:-:|
