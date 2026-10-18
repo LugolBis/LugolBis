@@ -37,10 +37,10 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
 
 ## DevOps / Tooling
 
-| Version Control || Containers || CI/CD || Build Tools |
+|Containers|| CI/CD & Testing|| Version Control || Build Tools |
 |:-:|-|:-:|-|:-:|-|:-:|
-| ![Version Control](https://go-skill-icons.vercel.app/api/icons?i=git,github,gitlab) || ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64) |
-| [Git](https://git-scm.com/) \| [GitHub](https://github.com/) \| [GitLab](https://gitlab.com/) || [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
+| ![Containers](https://go-skill-icons.vercel.app/api/icons?i=docker,virtualbox) || ![CI/CD](https://go-skill-icons.vercel.app/api/icons?i=githubactions,githubpages,pytest) || ![Version Control](https://go-skill-icons.vercel.app/api/icons?i=git,github,gitlab) || ![Build Tools](https://go-skill-icons.vercel.app/api/icons?i=maven) ![uv](https://img.shields.io/badge/uv-d7ff64?style=for-the-badge&color=d7ff64) |
+| [Docker](https://docker.com/) \| [VirtualBox](https://www.virtualbox.org/) || [GitHub Actions](https://github.com/features/actions) \| [GitHub Pages](https://pages.github.com/) \| [Pytest](https://docs.pytest.org/en/stable/) || [Git](https://git-scm.com/) \| [GitHub](https://github.com/) \| [GitLab](https://gitlab.com/) || [Maven](https://maven.apache.org/) \| [uv](https://docs.astral.sh/uv/) |
 
 ## AI
 
