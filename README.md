@@ -168,8 +168,8 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
         <a href="https://gitlab.com/" title="GitLab"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/gitlab-dark.svg"><img alt="GitLab" src="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/gitlab-light.svg" width="48" height="48"></picture></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://maven.apache.org/" title="Maven"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/maven-dark.svg"><img alt="Maven" src="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/maven-light.svg" width="48" height="48"></picture></a><br>
-        <a href="https://docs.astral.sh/uv/" title="uv"><img alt="uv" src="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/badges/uv.svg" height="28"></a>
+        <a href="https://maven.apache.org/" title="Maven"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/maven-dark.svg"><img alt="Maven" src="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/maven-light.svg" width="48" height="48"></picture></a>&nbsp;
+        <a href="https://docs.astral.sh/uv/" title="uv"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/uv-dark.svg"><img alt="uv" src="https://raw.githubusercontent.com/LugolBis/LugolBis/dev/assets/icons/uv-light.svg" width="48" height="48"></picture></a>
       </td>
     </tr>
     <tr>

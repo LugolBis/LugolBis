@@ -294,10 +294,7 @@
                                     "url": "https://maven.apache.org/"
                                 },
                                 {
-                                    "badge": {
-                                        "text": "uv",
-                                        "color": "d7ff64"
-                                    },
+                                    "icon": "uv",
                                     "name": "uv",
                                     "url": "https://docs.astral.sh/uv/"
                                 }
