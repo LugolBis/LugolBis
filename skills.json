@@ -452,31 +452,6 @@
                             ]
                         },
                         {
-                            "label": "Web",
-                            "skills": [
-                                {
-                                    "icon": "flask",
-                                    "name": "Flask",
-                                    "url": "https://flask.palletsprojects.com/"
-                                }
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "label": "Scraping",
-                            "skills": [
-                                {
-                                    "badge": {
-                                        "text": "BeautifulSoup",
-                                        "color": "050038"
-                                    },
-                                    "name": "Beautiful Soup",
-                                    "url": "https://www.crummy.com/software/BeautifulSoup/"
-                                }
-                            ]
-                        },
-                        {
                             "label": "Rust Ecosystem",
                             "skills": [
                                 {
@@ -501,6 +476,31 @@
                                     },
                                     "name": "Macroquad",
                                     "url": "https://macroquad.rs/"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "label": "Web",
+                            "skills": [
+                                {
+                                    "icon": "flask",
+                                    "name": "Flask",
+                                    "url": "https://flask.palletsprojects.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Scraping",
+                            "skills": [
+                                {
+                                    "badge": {
+                                        "text": "BeautifulSoup",
+                                        "color": "050038"
+                                    },
+                                    "name": "Beautiful Soup",
+                                    "url": "https://www.crummy.com/software/BeautifulSoup/"
                                 }
                             ]
                         }
