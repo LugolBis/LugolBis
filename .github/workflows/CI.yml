@@ -1,0 +1,68 @@
+name: Update README asset paths
+
+on:
+  push:
+
+# Required so GITHUB_TOKEN can push the commit back to the branch
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Checkout the branch that triggered the push
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run build script
+        run: |
+          # Fail fast if the script is missing or not executable
+          if [ ! -f ./scripts/build.py ]; then
+            echo "Error: ./scripts/build.py not found" >&2
+            exit 1
+          fi
+
+          python ./scripts/build.py
+
+      - name: Replace wildcard with branch name in README
+        run: |
+          BRANCH_NAME="${GITHUB_REF_NAME}"
+          NAME="LugolBis"
+
+          # Escape characters that are special in the sed replacement string:
+          # backslash, ampersand (stands for the whole match) and the pipe delimiter.
+          # This keeps the workflow safe for branch names like "feat/foo.v2" or "fix/a&b".
+          ESCAPED_BRANCH=$(printf '%s' "$BRANCH_NAME" | sed -e 's/[\/&|]/\\&/g')
+
+          # Replace "Name/Name/<wildcard>/assets/" with "Name/Name/<branch>/assets/"
+          # where <wildcard> is one or more alphanumeric characters.
+          sed -i -E "s|($Name/$Name/)[a-zA-Z0-9]+(/assets/)|\1${ESCAPED_BRANCH}\2|g" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          # Skip the commit if README.md was not actually modified
+          if git diff --cached --quiet; then
+            echo "No changes to README.md, nothing to commit."
+            exit 0
+          fi
+
+          # "[skip ci]" is a safety net: by default, commits pushed with GITHUB_TOKEN
+          # do not trigger new workflow runs, but this makes the intent explicit
+          # and protects against recursive runs if that behavior is ever changed.
+          git commit -m "Update README asset paths for branch ${GITHUB_REF_NAME} [skip ci]"
+          git push
