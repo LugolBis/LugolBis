@@ -475,11 +475,9 @@
                                     "url": "https://dioxuslabs.com/"
                                 },
                                 {
-                                    "icon": {
-                                        "icon": "egui",
-                                        "name": "Egui",
-                                        "url": "https://github.com/emilk/egui"
-                                    }
+                                    "icon": "egui",
+                                    "name": "Egui",
+                                    "url": "https://github.com/emilk/egui"
                                 },
                                 {
                                     "badge": {
