@@ -475,20 +475,19 @@
                                     "url": "https://dioxuslabs.com/"
                                 },
                                 {
+                                    "icon": {
+                                        "icon": "egui",
+                                        "name": "Egui",
+                                        "url": "https://github.com/emilk/egui"
+                                    }
+                                },
+                                {
                                     "badge": {
                                         "text": "Macroquad",
                                         "color": "DD1200"
                                     },
                                     "name": "Macroquad",
                                     "url": "https://macroquad.rs/"
-                                },
-                                {
-                                    "badge": {
-                                        "text": "Egui",
-                                        "color": "217346"
-                                    },
-                                    "name": "egui",
-                                    "url": "https://github.com/emilk/egui"
                                 }
                             ]
                         }
