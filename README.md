@@ -202,13 +202,14 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
       </td>
       <td align="center" valign="middle">
         <a href="https://huggingface.co/" title="Hugging Face"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/huggingface-dark.svg"><img alt="Hugging Face" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/huggingface-light.svg" width="48" height="48"></picture></a>&nbsp;
-        <a href="https://ollama.com/" title="Ollama"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ollama-dark.svg"><img alt="Ollama" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ollama-light.svg" width="48" height="48"></picture></a>
+        <a href="https://ollama.com/" title="Ollama"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ollama-dark.svg"><img alt="Ollama" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ollama-light.svg" width="48" height="48"></picture></a>&nbsp;
+        <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro" title="MCP"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/mcp-dark.svg"><img alt="MCP" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/mcp-light.svg" width="48" height="48"></picture></a>
       </td>
     </tr>
     <tr>
       <td align="center" valign="top"><a href="https://tensorflow.org/">TensorFlow</a> · <a href="https://pytorch.org/">PyTorch</a></td>
       <td align="center" valign="top"><a href="https://pandas.pydata.org/">Pandas</a> · <a href="https://numpy.org/">NumPy</a></td>
-      <td align="center" valign="top"><a href="https://huggingface.co/">Hugging Face</a> · <a href="https://ollama.com/">Ollama</a></td>
+      <td align="center" valign="top"><a href="https://huggingface.co/">Hugging Face</a> · <a href="https://ollama.com/">Ollama</a> · <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro">MCP</a></td>
     </tr>
   </tbody>
 </table>
