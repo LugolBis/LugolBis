@@ -354,6 +354,11 @@
                                     "icon": "ollama",
                                     "name": "Ollama",
                                     "url": "https://ollama.com/"
+                                },
+                                {
+                                    "icon": "mcp",
+                                    "name": "MCP",
+                                    "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"
                                 }
                             ]
                         }
