@@ -257,7 +257,7 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
   <thead>
     <tr>
       <th align="center">Data Apps</th>
-      <th align="center">Web</th>
+      <th align="center">Rust Ecosystem</th>
     </tr>
   </thead>
   <tbody>
@@ -267,25 +267,6 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
         <a href="https://streamlit.io/" title="Streamlit"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/streamlit-dark.svg"><img alt="Streamlit" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/streamlit-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://gradio.app/" title="Gradio"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/gradio-dark.svg"><img alt="Gradio" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/gradio-light.svg" width="48" height="48"></picture></a>
       </td>
-      <td align="center" valign="middle"><a href="https://flask.palletsprojects.com/" title="Flask"><img alt="Flask" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/flask.svg" width="48" height="48"></a></td>
-    </tr>
-    <tr>
-      <td align="center" valign="top"><a href="https://pydantic.dev/">Pydantic</a> · <a href="https://streamlit.io/">Streamlit</a> · <a href="https://gradio.app/">Gradio</a></td>
-      <td align="center" valign="top"><a href="https://flask.palletsprojects.com/">Flask</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<table align="center">
-  <thead>
-    <tr>
-      <th align="center">Scraping</th>
-      <th align="center">Rust Ecosystem</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle"><a href="https://www.crummy.com/software/BeautifulSoup/" title="Beautiful Soup"><img alt="Beautiful Soup" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/badges/beautifulsoup.svg" height="28"></a></td>
       <td align="center" valign="middle">
         <a href="https://ratatui.rs/" title="Ratatui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ratatui-dark.svg"><img alt="Ratatui" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/ratatui-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://dioxuslabs.com/" title="Dioxus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/dioxus-dark.svg"><img alt="Dioxus" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/dioxus-light.svg" width="48" height="48"></picture></a>&nbsp;
@@ -294,8 +275,27 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
       </td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a></td>
+      <td align="center" valign="top"><a href="https://pydantic.dev/">Pydantic</a> · <a href="https://streamlit.io/">Streamlit</a> · <a href="https://gradio.app/">Gradio</a></td>
       <td align="center" valign="top"><a href="https://ratatui.rs/">Ratatui</a> · <a href="https://dioxuslabs.com/">Dioxus</a> · <a href="https://github.com/emilk/egui">Egui</a> · <a href="https://macroquad.rs/">Macroquad</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Web</th>
+      <th align="center">Scraping</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle"><a href="https://flask.palletsprojects.com/" title="Flask"><img alt="Flask" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/flask.svg" width="48" height="48"></a></td>
+      <td align="center" valign="middle"><a href="https://www.crummy.com/software/BeautifulSoup/" title="Beautiful Soup"><img alt="Beautiful Soup" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/badges/beautifulsoup.svg" height="28"></a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top"><a href="https://flask.palletsprojects.com/">Flask</a></td>
+      <td align="center" valign="top"><a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a></td>
     </tr>
   </tbody>
 </table>
