@@ -34,6 +34,12 @@ jobs:
 
           python ./scripts/build.py
 
+      - name: Check README (after build.py)
+        run: |
+          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
+          grep -n 'Name/Name/.*/assets/' README.md || true
+          git diff --stat
+
       - name: Replace wildcard with branch name in README
         run: |
           BRANCH_NAME="${GITHUB_REF_NAME}"
@@ -47,6 +53,12 @@ jobs:
           # Replace "Name/Name/<wildcard>/assets/" with "Name/Name/<branch>/assets/"
           # where <wildcard> is one or more alphanumeric characters.
           sed -i -E "s|($Name/$Name/)[a-zA-Z0-9]+(/assets/)|\1${ESCAPED_BRANCH}\2|g" README.md
+
+      - name: Check README (after replacement)
+        run: |
+          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
+          grep -n 'Name/Name/.*/assets/' README.md || true
+          git diff --stat
 
       - name: Commit and push changes
         run: |
