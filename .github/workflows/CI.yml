@@ -62,14 +62,14 @@ jobs:
           git add assets
           git add README.md
 
-          # Skip the commit if README.md was not actually modified
+          # Skip the commit if there isn't any modification
           if git diff --cached --quiet; then
-            echo "No changes to README.md, nothing to commit."
+            echo "No changes done, nothing to commit."
             exit 0
           fi
 
           # "[skip ci]" is a safety net: by default, commits pushed with GITHUB_TOKEN
           # do not trigger new workflow runs, but this makes the intent explicit
           # and protects against recursive runs if that behavior is ever changed.
-          git commit -m "Update README asset paths for ${GITHUB_ACTOR} on ${GITHUB_REF_NAME} [skip ci]"
+          git commit -m "Update assets for '${GITHUB_ACTOR}' on '${GITHUB_REF_NAME}' [skip ci]"
           git push
