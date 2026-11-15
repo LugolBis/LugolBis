@@ -173,6 +173,11 @@
                                     "url": "https://www.getdbt.com/"
                                 },
                                 {
+                                    "icon": "hadoop",
+                                    "name": "Hadoop",
+                                    "url": "https://hadoop.apache.org/"
+                                },
+                                {
                                     "icon": "polars",
                                     "name": "Polars",
                                     "url": "https://pola.rs/"
