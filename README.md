@@ -92,12 +92,13 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
         <a href="https://spark.apache.org/" title="Spark"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/spark-dark.svg"><img alt="Spark" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/spark-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://kafka.apache.org/" title="Kafka"><img alt="Kafka" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/kafka.svg" width="48" height="48"></a>&nbsp;
         <a href="https://www.getdbt.com/" title="dbt"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/dbtlabs-dark.svg"><img alt="dbt" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/dbtlabs-light.svg" width="48" height="48"></picture></a>&nbsp;
+        <a href="https://hadoop.apache.org/" title="Hadoop"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/hadoop-dark.svg"><img alt="Hadoop" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/hadoop-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://pola.rs/" title="Polars"><img alt="Polars" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/polars.svg" width="48" height="48"></a>
       </td>
       <td align="center" valign="middle"><a href="https://neo4j.com/" title="Neo4j"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-dark.svg"><img alt="Neo4j" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-light.svg" width="48" height="48"></picture></a></td>
     </tr>
     <tr>
-      <td align="center" valign="top"><a href="https://spark.apache.org/">Spark</a> · <a href="https://kafka.apache.org/">Kafka</a> · <a href="https://www.getdbt.com/">dbt</a> · <a href="https://pola.rs/">Polars</a></td>
+      <td align="center" valign="top"><a href="https://spark.apache.org/">Spark</a> · <a href="https://kafka.apache.org/">Kafka</a> · <a href="https://www.getdbt.com/">dbt</a> · <a href="https://hadoop.apache.org/">Hadoop</a> · <a href="https://pola.rs/">Polars</a></td>
       <td align="center" valign="top"><a href="https://neo4j.com/">Neo4j</a></td>
     </tr>
   </tbody>
