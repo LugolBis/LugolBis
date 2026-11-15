@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:c2pa="http://c2pa.org/manifest">
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <g transform="translate(128 128) scale(0.245) translate(-426 -354)">
+    <polygon fill="#F4F2ED" stroke="#F4F2ED" stroke-width="80" stroke-linejoin="round" points="736.6,354 581.3,623 270.7,623 115.4,354 270.7,85 581.3,85"/>
+    <g fill="#242938">
+      <path d="M388,119H464Q473,119 473,128V306A94,94 0 0 1 379,212V128Q379,119 388,119Z"/>
+      <path d="M473,306H651Q660,306 660,315V391Q660,400 651,400H567A94,94 0 0 1 473,306Z"/>
+      <path d="M379,400A94,94 0 0 1 473,494V578Q473,587 464,587H388Q379,587 379,578Z"/>
+      <path d="M201,306H285A94,94 0 0 1 379,400H201Q192,400 192,391V315Q192,306 201,306Z"/>
+    </g>
+  </g>
+</svg>

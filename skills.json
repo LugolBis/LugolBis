@@ -1,0 +1,608 @@
+{
+    "settings": {
+        "base_url": "https://raw.githubusercontent.com/LugolBis/LugolBis/main",
+        "icon_size": 48,
+        "badge_height": 28,
+        "max_per_row": 5,
+        "layout": "columns"
+    },
+    "about": {
+        "title": "- About me -",
+        "paragraphs": [
+            "I'm **LugolBis**, a French computer science student passionate about building reliable data systems and exploring modern technologies.",
+            "My main interests are **Data Engineering**, **Data Quality**, and **Rust**."
+        ]
+    },
+    "profiles": {
+        "title": "🌐 Profiles",
+        "links": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lo%C3%AFc-desmar%C3%A8s-332855275"
+            },
+            {
+                "icon": "huggingface",
+                "name": "Hugging Face",
+                "url": "https://huggingface.co/LugolBis"
+            }
+        ]
+    },
+    "stack": {
+        "title": "- Tech Stack -",
+        "sections": [
+            {
+                "title": "Programming Languages",
+                "tables": [
+                    [
+                        {
+                            "label": "Advanced",
+                            "skills": [
+                                {
+                                    "icon": "rust",
+                                    "name": "Rust",
+                                    "url": "https://rust-lang.org/"
+                                },
+                                {
+                                    "icon": "python",
+                                    "name": "Python",
+                                    "url": "https://python.org/"
+                                },
+                                {
+                                    "icon": "plsql",
+                                    "name": "PL/SQL",
+                                    "url": "https://www.oracle.com/database/technologies/appdev/plsql.html"
+                                },
+                                {
+                                    "icon": "java",
+                                    "name": "Java",
+                                    "url": "https://www.java.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Proficient",
+                            "skills": [
+                                {
+                                    "icon": "scala",
+                                    "name": "Scala",
+                                    "url": "https://www.scala-lang.org/"
+                                },
+                                {
+                                    "icon": "bash",
+                                    "name": "Bash",
+                                    "url": "https://www.gnu.org/software/bash/"
+                                },
+                                {
+                                    "icon": "powershell",
+                                    "name": "PowerShell",
+                                    "url": "https://learn.microsoft.com/powershell/"
+                                },
+                                {
+                                    "icon": "javascript",
+                                    "name": "JavaScript",
+                                    "url": "https://developer.mozilla.org/docs/Web/JavaScript"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Intermediate",
+                            "skills": [
+                                {
+                                    "icon": "html",
+                                    "name": "HTML",
+                                    "url": "https://developer.mozilla.org/docs/Web/HTML"
+                                },
+                                {
+                                    "icon": "css",
+                                    "name": "CSS",
+                                    "url": "https://developer.mozilla.org/docs/Web/CSS"
+                                },
+                                {
+                                    "icon": "r",
+                                    "name": "R",
+                                    "url": "https://www.r-project.org/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Data Engineering",
+                "tables": [
+                    [
+                        {
+                            "label": "Relational Databases (SQL)",
+                            "skills": [
+                                {
+                                    "icon": "oracle",
+                                    "name": "Oracle",
+                                    "url": "https://www.oracle.com/database/"
+                                },
+                                {
+                                    "icon": "postgresql",
+                                    "name": "PostgreSQL",
+                                    "url": "https://postgresql.org/"
+                                },
+                                {
+                                    "icon": "mysql",
+                                    "name": "MySQL",
+                                    "url": "https://mysql.com/"
+                                },
+                                {
+                                    "icon": "duckdb",
+                                    "name": "DuckDB",
+                                    "url": "https://duckdb.org/"
+                                },
+                                {
+                                    "icon": "sqlserver",
+                                    "name": "SQL Server",
+                                    "url": "https://www.microsoft.com/sql-server/"
+                                },
+                                {
+                                    "icon": "sqlite",
+                                    "name": "SQLite",
+                                    "url": "https://sqlite.org/"
+                                },
+                                {
+                                    "icon": "tidb",
+                                    "name": "TiDB",
+                                    "url": "https://www.pingcap.com/"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "label": "Processing",
+                            "skills": [
+                                {
+                                    "icon": "spark",
+                                    "name": "Spark",
+                                    "url": "https://spark.apache.org/"
+                                },
+                                {
+                                    "icon": "kafka",
+                                    "name": "Kafka",
+                                    "url": "https://kafka.apache.org/"
+                                },
+                                {
+                                    "icon": "dbtlabs",
+                                    "name": "dbt",
+                                    "url": "https://www.getdbt.com/"
+                                },
+                                {
+                                    "icon": "polars",
+                                    "name": "Polars",
+                                    "url": "https://pola.rs/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "NoSQL",
+                            "skills": [
+                                {
+                                    "icon": "neo4j",
+                                    "name": "Neo4j",
+                                    "url": "https://neo4j.com/"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "label": "Orchestration",
+                            "skills": [
+                                {
+                                    "icon": "airflow",
+                                    "name": "Apache Airflow",
+                                    "url": "https://airflow.apache.org/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Cloud",
+                            "skills": [
+                                {
+                                    "icon": "gcp",
+                                    "name": "Google Cloud Platform",
+                                    "url": "https://cloud.google.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Lakehouse",
+                            "skills": [
+                                {
+                                    "icon": "dremio",
+                                    "name": "Dremio",
+                                    "url": "https://www.dremio.com/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "DevOps / Tooling",
+                "tables": [
+                    [
+                        {
+                            "label": "Containers",
+                            "skills": [
+                                {
+                                    "icon": "docker",
+                                    "name": "Docker",
+                                    "url": "https://docker.com/"
+                                },
+                                {
+                                    "icon": "virtualbox",
+                                    "name": "VirtualBox",
+                                    "url": "https://www.virtualbox.org/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "CI/CD & Testing",
+                            "skills": [
+                                {
+                                    "icon": "githubactions",
+                                    "name": "GitHub Actions",
+                                    "url": "https://github.com/features/actions"
+                                },
+                                {
+                                    "icon": "githubpages",
+                                    "name": "GitHub Pages",
+                                    "url": "https://pages.github.com/"
+                                },
+                                {
+                                    "icon": "pytest",
+                                    "name": "Pytest",
+                                    "url": "https://docs.pytest.org/en/stable/"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "label": "Version Control",
+                            "skills": [
+                                {
+                                    "icon": "git",
+                                    "name": "Git",
+                                    "url": "https://git-scm.com/"
+                                },
+                                {
+                                    "icon": "github",
+                                    "name": "GitHub",
+                                    "url": "https://github.com/"
+                                },
+                                {
+                                    "icon": "gitlab",
+                                    "name": "GitLab",
+                                    "url": "https://gitlab.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Build Tools",
+                            "skills": [
+                                {
+                                    "icon": "maven",
+                                    "name": "Maven",
+                                    "url": "https://maven.apache.org/"
+                                },
+                                {
+                                    "icon": "uv",
+                                    "name": "uv",
+                                    "url": "https://docs.astral.sh/uv/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "AI",
+                "tables": [
+                    [
+                        {
+                            "label": "ML/DL",
+                            "skills": [
+                                {
+                                    "icon": "tensorflow",
+                                    "name": "TensorFlow",
+                                    "url": "https://tensorflow.org/"
+                                },
+                                {
+                                    "icon": "pytorch",
+                                    "name": "PyTorch",
+                                    "url": "https://pytorch.org/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "DS Libs",
+                            "skills": [
+                                {
+                                    "icon": "pandas",
+                                    "name": "Pandas",
+                                    "url": "https://pandas.pydata.org/"
+                                },
+                                {
+                                    "icon": "numpy",
+                                    "name": "NumPy",
+                                    "url": "https://numpy.org/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "LLM Ops",
+                            "skills": [
+                                {
+                                    "icon": "huggingface",
+                                    "name": "Hugging Face",
+                                    "url": "https://huggingface.co/"
+                                },
+                                {
+                                    "icon": "ollama",
+                                    "name": "Ollama",
+                                    "url": "https://ollama.com/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Visualization",
+                "tables": [
+                    [
+                        {
+                            "label": "Charts",
+                            "skills": [
+                                {
+                                    "icon": "matplotlib",
+                                    "name": "Matplotlib",
+                                    "url": "https://matplotlib.org/"
+                                },
+                                {
+                                    "icon": "plotly",
+                                    "name": "Plotly",
+                                    "url": "https://plotly.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Diagrams",
+                            "skills": [
+                                {
+                                    "icon": "mermaid",
+                                    "name": "Mermaid",
+                                    "url": "https://mermaid.js.org/"
+                                },
+                                {
+                                    "icon": "miro",
+                                    "name": "Miro",
+                                    "url": "https://miro.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Documentation",
+                            "skills": [
+                                {
+                                    "icon": "markdown",
+                                    "name": "Markdown",
+                                    "url": "https://www.markdownguide.org/"
+                                },
+                                {
+                                    "icon": "latex",
+                                    "name": "LaTeX",
+                                    "url": "https://latex-project.org/"
+                                },
+                                {
+                                    "icon": "typst",
+                                    "name": "Typst",
+                                    "url": "https://typst.app/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Applications / Frameworks",
+                "tables": [
+                    [
+                        {
+                            "label": "Data Apps",
+                            "skills": [
+                                {
+                                    "icon": "pydantic",
+                                    "name": "Pydantic",
+                                    "url": "https://pydantic.dev/"
+                                },
+                                {
+                                    "icon": "streamlit",
+                                    "name": "Streamlit",
+                                    "url": "https://streamlit.io/"
+                                },
+                                {
+                                    "icon": "gradio",
+                                    "name": "Gradio",
+                                    "url": "https://gradio.app/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Web",
+                            "skills": [
+                                {
+                                    "icon": "flask",
+                                    "name": "Flask",
+                                    "url": "https://flask.palletsprojects.com/"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "label": "Scraping",
+                            "skills": [
+                                {
+                                    "badge": {
+                                        "text": "BeautifulSoup",
+                                        "color": "050038"
+                                    },
+                                    "name": "Beautiful Soup",
+                                    "url": "https://www.crummy.com/software/BeautifulSoup/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Rust Ecosystem",
+                            "skills": [
+                                {
+                                    "icon": "ratatui",
+                                    "name": "Ratatui",
+                                    "url": "https://ratatui.rs/"
+                                },
+                                {
+                                    "icon": "dioxus",
+                                    "name": "Dioxus",
+                                    "url": "https://dioxuslabs.com/"
+                                },
+                                {
+                                    "icon": "egui",
+                                    "name": "Egui",
+                                    "url": "https://github.com/emilk/egui"
+                                },
+                                {
+                                    "badge": {
+                                        "text": "Macroquad",
+                                        "color": "DD1200"
+                                    },
+                                    "name": "Macroquad",
+                                    "url": "https://macroquad.rs/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Operating System",
+                "tables": [
+                    [
+                        {
+                            "label": "Proficient",
+                            "skills": [
+                                {
+                                    "icon": "cachyos",
+                                    "name": "CachyOS",
+                                    "url": "https://cachyos.org/"
+                                },
+                                {
+                                    "icon": "windows",
+                                    "name": "Windows",
+                                    "url": "https://www.microsoft.com/windows"
+                                },
+                                {
+                                    "icon": "apple",
+                                    "name": "Apple",
+                                    "url": "https://apple.com/macos/"
+                                },
+                                {
+                                    "icon": "popos",
+                                    "name": "Pop!_OS",
+                                    "url": "https://system76.com/pop/"
+                                },
+                                {
+                                    "icon": "ubuntu",
+                                    "name": "Ubuntu Server",
+                                    "url": "https://ubuntu.com/server"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "Office",
+                "tables": [
+                    [
+                        {
+                            "label": "Proficient",
+                            "skills": [
+                                {
+                                    "icon": "excel",
+                                    "name": "Excel",
+                                    "url": "https://www.microsoft.com/microsoft-365/excel"
+                                },
+                                {
+                                    "icon": "teams",
+                                    "name": "Microsoft Teams",
+                                    "url": "https://www.microsoft.com/microsoft-teams/group-chat-software"
+                                },
+                                {
+                                    "icon": "powerpoint",
+                                    "name": "PowerPoint",
+                                    "url": "https://www.microsoft.com/microsoft-365/powerpoint"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            },
+            {
+                "title": "IDEs / Editors",
+                "tables": [
+                    [
+                        {
+                            "label": "Advanced",
+                            "skills": [
+                                {
+                                    "icon": "vscode",
+                                    "name": "Visual Studio Code",
+                                    "url": "https://code.visualstudio.com/"
+                                },
+                                {
+                                    "icon": "vscodium",
+                                    "name": "VSCodium",
+                                    "url": "https://vscodium.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Intermediate",
+                            "skills": [
+                                {
+                                    "icon": "googlecolab",
+                                    "name": "Google Colab",
+                                    "url": "https://colab.research.google.com/"
+                                },
+                                {
+                                    "icon": "jupyter",
+                                    "name": "Jupyter Notebook",
+                                    "url": "https://jupyter.org/"
+                                },
+                                {
+                                    "icon": "replit",
+                                    "name": "Replit",
+                                    "url": "https://replit.com/"
+                                },
+                                {
+                                    "icon": "sublime",
+                                    "name": "Sublime Text",
+                                    "url": "https://sublimetext.com/"
+                                }
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}

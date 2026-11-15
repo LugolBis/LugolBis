@@ -1,0 +1,74 @@
+name: Update README asset paths
+
+on:
+  push:
+
+# Required so GITHUB_TOKEN can push the commit back to the branch
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Checkout the branch that triggered the push
+          ref: ${{ github.ref_name }}
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run build script
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          if [ ! -f ./scripts/build.py ]; then
+            echo "Error: ./scripts/build.py not found" >&2
+            exit 1
+          fi
+
+          python ./scripts/build.py
+
+      - name: Check README (after build.py)
+        run: |
+          ACTOR="${GITHUB_ACTOR}"
+          BRANCH_NAME="${GITHUB_REF_NAME}"
+
+          # Escape the sed replacement delimiters and special characters
+          # (delimiter `|`, backslash `\`, and ampersand `&` which means "whole match").
+          esc() { printf '%s' "$1" | sed -e 's/[\/&|]/\\&/g'; }
+          ESC_ACTOR=$(esc "$ACTOR")
+          ESC_BRANCH=$(esc "$BRANCH_NAME")
+
+          # Rewrite any "<user>/<same-user>/<wildcard>/assets/" path as
+          # "<actor>/<actor>/<branch>/assets/".
+          # The backreference \1 forces the two leading segments to be identical,
+          # so unrelated paths such as "img/img/logo.png" are left untouched.
+          sed -i -E \
+            "s|([^/]+)/\1/[a-zA-Z0-9]+/assets/|${ESC_ACTOR}/${ESC_ACTOR}/${ESC_BRANCH}/assets/|g" \
+            README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          # Skip the commit if README.md was not actually modified
+          if git diff --cached --quiet; then
+            echo "No changes to README.md, nothing to commit."
+            exit 0
+          fi
+
+          # "[skip ci]" is a safety net: by default, commits pushed with GITHUB_TOKEN
+          # do not trigger new workflow runs, but this makes the intent explicit
+          # and protects against recursive runs if that behavior is ever changed.
+          git commit -m "Update README asset paths for ${GITHUB_ACTOR} on ${GITHUB_REF_NAME} [skip ci]"
+          git push
