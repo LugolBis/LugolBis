@@ -67,7 +67,7 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
         <a href="https://www.oracle.com/database/" title="Oracle"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/oracle-dark.svg"><img alt="Oracle" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/oracle-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://postgresql.org/" title="PostgreSQL"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/postgresql-dark.svg"><img alt="PostgreSQL" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/postgresql-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://mysql.com/" title="MySQL"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/mysql-dark.svg"><img alt="MySQL" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/mysql-light.svg" width="48" height="48"></picture></a>&nbsp;
-        <a href="https://duckdb.org/" title="DuckDB"><img alt="DuckDB" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/duckdb.svg" width="48" height="48"></a><br>
+        <a href="https://duckdb.org/" title="DuckDB"><img alt="DuckDB" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/duckdb.svg" width="48" height="48"></a>&nbsp;
         <a href="https://www.microsoft.com/sql-server/" title="SQL Server"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/sqlserver-dark.svg"><img alt="SQL Server" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/sqlserver-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://sqlite.org/" title="SQLite"><img alt="SQLite" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/sqlite.svg" width="48" height="48"></a>&nbsp;
         <a href="https://www.pingcap.com/" title="TiDB"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/tidb-dark.svg"><img alt="TiDB" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/tidb-light.svg" width="48" height="48"></picture></a>
@@ -82,12 +82,16 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
 <table align="center">
   <thead>
     <tr>
-      <th align="center">Processing</th>
       <th align="center">NoSQL</th>
+      <th align="center">Processing</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td align="center" valign="middle">
+        <a href="https://neo4j.com/" title="Neo4j"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-dark.svg"><img alt="Neo4j" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-light.svg" width="48" height="48"></picture></a>&nbsp;
+        <a href="https://redis.io/" title="Redis"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/redis-dark.svg"><img alt="Redis" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/redis-light.svg" width="48" height="48"></picture></a>
+      </td>
       <td align="center" valign="middle">
         <a href="https://spark.apache.org/" title="Spark"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/spark-dark.svg"><img alt="Spark" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/spark-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://kafka.apache.org/" title="Kafka"><img alt="Kafka" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/kafka.svg" width="48" height="48"></a>&nbsp;
@@ -95,11 +99,10 @@ My main interests are **Data Engineering**, **Data Quality**, and **Rust**.
         <a href="https://hadoop.apache.org/" title="Hadoop"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/hadoop-dark.svg"><img alt="Hadoop" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/hadoop-light.svg" width="48" height="48"></picture></a>&nbsp;
         <a href="https://pola.rs/" title="Polars"><img alt="Polars" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/polars.svg" width="48" height="48"></a>
       </td>
-      <td align="center" valign="middle"><a href="https://neo4j.com/" title="Neo4j"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-dark.svg"><img alt="Neo4j" src="https://raw.githubusercontent.com/LugolBis/LugolBis/main/assets/icons/neo4j-light.svg" width="48" height="48"></picture></a></td>
     </tr>
     <tr>
+      <td align="center" valign="top"><a href="https://neo4j.com/">Neo4j</a> · <a href="https://redis.io/">Redis</a></td>
       <td align="center" valign="top"><a href="https://spark.apache.org/">Spark</a> · <a href="https://kafka.apache.org/">Kafka</a> · <a href="https://www.getdbt.com/">dbt</a> · <a href="https://hadoop.apache.org/">Hadoop</a> · <a href="https://pola.rs/">Polars</a></td>
-      <td align="center" valign="top"><a href="https://neo4j.com/">Neo4j</a></td>
     </tr>
   </tbody>
 </table>
