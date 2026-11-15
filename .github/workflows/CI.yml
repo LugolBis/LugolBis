@@ -25,8 +25,9 @@ jobs:
           python-version: '3.12'
 
       - name: Run build script
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
-          # Fail fast if the script is missing or not executable
           if [ ! -f ./scripts/build.py ]; then
             echo "Error: ./scripts/build.py not found" >&2
             exit 1
@@ -36,29 +37,22 @@ jobs:
 
       - name: Check README (after build.py)
         run: |
-          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
-          grep -n 'Name/Name/.*/assets/' README.md || true
-          git diff --stat
-
-      - name: Replace wildcard with branch name in README
-        run: |
+          ACTOR="${GITHUB_ACTOR}"
           BRANCH_NAME="${GITHUB_REF_NAME}"
-          NAME="LugolBis"
 
-          # Escape characters that are special in the sed replacement string:
-          # backslash, ampersand (stands for the whole match) and the pipe delimiter.
-          # This keeps the workflow safe for branch names like "feat/foo.v2" or "fix/a&b".
-          ESCAPED_BRANCH=$(printf '%s' "$BRANCH_NAME" | sed -e 's/[\/&|]/\\&/g')
+          # Escape the sed replacement delimiters and special characters
+          # (delimiter `|`, backslash `\`, and ampersand `&` which means "whole match").
+          esc() { printf '%s' "$1" | sed -e 's/[\/&|]/\\&/g'; }
+          ESC_ACTOR=$(esc "$ACTOR")
+          ESC_BRANCH=$(esc "$BRANCH_NAME")
 
-          # Replace "Name/Name/<wildcard>/assets/" with "Name/Name/<branch>/assets/"
-          # where <wildcard> is one or more alphanumeric characters.
-          sed -i -E "s|($Name/$Name/)[a-zA-Z0-9]+(/assets/)|\1${ESCAPED_BRANCH}\2|g" README.md
-
-      - name: Check README (after replacement)
-        run: |
-          echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
-          grep -n 'Name/Name/.*/assets/' README.md || true
-          git diff --stat
+          # Rewrite any "<user>/<same-user>/<wildcard>/assets/" path as
+          # "<actor>/<actor>/<branch>/assets/".
+          # The backreference \1 forces the two leading segments to be identical,
+          # so unrelated paths such as "img/img/logo.png" are left untouched.
+          sed -i -E \
+            "s|([^/]+)/\1/[a-zA-Z0-9]+/assets/|${ESC_ACTOR}/${ESC_ACTOR}/${ESC_BRANCH}/assets/|g" \
+            README.md
 
       - name: Commit and push changes
         run: |
@@ -76,5 +70,5 @@ jobs:
           # "[skip ci]" is a safety net: by default, commits pushed with GITHUB_TOKEN
           # do not trigger new workflow runs, but this makes the intent explicit
           # and protects against recursive runs if that behavior is ever changed.
-          git commit -m "Update README asset paths for branch ${GITHUB_REF_NAME} [skip ci]"
+          git commit -m "Update README asset paths for ${GITHUB_ACTOR} on ${GITHUB_REF_NAME} [skip ci]"
           git push
