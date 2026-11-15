@@ -19,15 +19,19 @@ dans skill-icons, ex. "postgresql"), puis relancer ce script. Le téléchargemen
 qu'au premier ajout ; les SVG sont ensuite versionnés dans le dépôt.
 
 Thème clair/sombre : balise <picture> + prefers-color-scheme (méthode documentée par GitHub).
-Adaptation écran : les icônes ont une taille fixe en px (icon_size) et passent à la ligne
-toutes seules ; elles ne sont jamais réduites, du téléphone au grand écran. Les groupes de plus de
-max_per_row icônes sont répartis en lignes équilibrées.
+Mise en page (settings.layout) : "columns" = un tableau par ensemble de colonnes (skills.json ->
+"tables", organisation d'origine) ; "rows" = un tableau par section, une ligne par groupe
+(plus étroit : ne déborde sur aucun écran). Les icônes ont une
+taille fixe en px (icon_size) et passent à la ligne DANS leur cellule : les colonnes se resserrent
+sur petit écran sans jamais réduire les icônes. Les cellules de plus de max_per_row icônes sont
+réparties en lignes équilibrées (7 -> 4+3).
 """
 from __future__ import annotations
 
 import json
 import math
 import sys
+import textwrap
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -115,8 +119,8 @@ def badge_svg(text: str, color: str, height: int) -> str:
     r, g, b = (int(color[i:i + 2], 16) for i in (0, 2, 4))
     # Même règle de contraste que shields.io : texte sombre sur fond clair.
     fg = "#fff" if (r * 299 + g * 587 + b * 114) / 255000 <= 0.69 else "#333"
-    text_len = round(9.0 * len(label) - 1, 1)  # estimation ; textLength force l'ajustement exact
-    width = round(text_len + 2 * 14)
+    text_len = round(8.2 * len(label) - 1, 1)  # estimation ; textLength force l'ajustement exact
+    width = round(text_len + 2 * 12)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">\n'
@@ -150,6 +154,9 @@ class Builder:
         self.size = int(s["icon_size"])
         self.badge_h = int(s["badge_height"])
         self.max_per_row = int(s.get("max_per_row", 5))
+        self.layout = s.get("layout", "columns")
+        if self.layout not in ("columns", "rows"):
+            raise SystemExit('settings.layout doit valoir "columns" ou "rows"')
 
     def icon_url(self, fname: str) -> str:
         return f"{self.base}/assets/icons/{fname}"
@@ -160,10 +167,8 @@ class Builder:
         themed = icon_files(skill["icon"])
         if themed:
             dark, light = themed
-            inner = (f'<picture>\n'
-                     f'    <source media="(prefers-color-scheme: dark)" srcset="{self.icon_url(dark)}">\n'
-                     f'    <img alt="{name}" src="{self.icon_url(light)}" {dim}>\n'
-                     f'  </picture>')
+            inner = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{self.icon_url(dark)}">'
+                     f'<img alt="{name}" src="{self.icon_url(light)}" {dim}></picture>')
         else:
             inner = f'<img alt="{name}" src="{self.icon_url(skill["icon"] + ".svg")}" {dim}>'
         return f'<a href="{escape(skill["url"])}" title="{name}">{inner}</a>'
@@ -174,21 +179,53 @@ class Builder:
         return (f'<a href="{escape(skill["url"])}" title="{name}"><img alt="{name}" '
                 f'src="{self.base}/assets/badges/{fname}" height="{self.badge_h}"></a>')
 
-    def group(self, group: dict) -> str:
-        """Un groupe = un bloc centré : libellé, icônes, badges, légende cliquable."""
+    def cell_icons(self, group: dict) -> str:
+        """Contenu de la cellule « icônes » : icônes (retour à la ligne automatique), puis badges."""
         skills = group["skills"]
         icons = [s for s in skills if "icon" in s]
         badges = [s for s in skills if "badge" in s]
-        rows = [f'  <b>{escape(group["label"])}</b>']
+        lines: list[str] = []
         if icons:
             # Au-delà de max_per_row, lignes équilibrées (7 -> 4+3) plutôt qu'une icône orpheline.
             per_row = math.ceil(len(icons) / math.ceil(len(icons) / self.max_per_row))
             for i in range(0, len(icons), per_row):
-                rows.append("  " + "&nbsp;\n  ".join(self.icon(s) for s in icons[i:i + per_row]))
+                lines.append("&nbsp;\n".join(self.icon(s) for s in icons[i:i + per_row]))
         if badges:
-            rows.append("  " + "&nbsp;\n  ".join(self.badge(s) for s in badges))
-        rows.append("  " + " · ".join(f'<a href="{escape(s["url"])}">{escape(s["name"])}</a>' for s in skills))
-        return '<p align="center">\n' + "<br>\n".join(rows) + "\n</p>"
+            lines.append("&nbsp;\n".join(self.badge(s) for s in badges))
+        return "<br>\n".join(lines)
+
+    def table(self, groups: list[dict]) -> str:
+        """Un tableau : une colonne par groupe ; lignes = titre, icônes, légende cliquable."""
+        def row(tag: str, cells: list[str], attrs: str) -> str:
+            def cell(c: str) -> str:
+                if "\n" not in c:  # cellule d'une ligne : balises sur la même ligne
+                    return f"      <{tag} {attrs}>{c}</{tag}>"
+                return f"      <{tag} {attrs}>\n" + textwrap.indent(c, "        ") + f"\n      </{tag}>"
+            return "    <tr>\n" + "\n".join(cell(c) for c in cells) + "\n    </tr>"
+
+        head = [escape(g["label"]) for g in groups]
+        icons = [self.cell_icons(g) for g in groups]
+        legend = [" · ".join(f'<a href="{escape(k["url"])}">{escape(k["name"])}</a>' for k in g["skills"])
+                  for g in groups]
+        return "\n".join([
+            '<table align="center">',
+            "  <thead>", row("th", head, 'align="center"'), "  </thead>",
+            "  <tbody>",
+            row("td", icons, 'align="center" valign="middle"'),
+            row("td", legend, 'align="center" valign="top"'),
+            "  </tbody>",
+            "</table>",
+        ])
+
+    def table_rows(self, groups: list[dict]) -> str:
+        """Variante « rows » : une ligne par groupe (titre | icônes + légende). Ne déborde jamais."""
+        out = ['<table align="center">', "  <tbody>"]
+        for g in groups:
+            legend = " · ".join(f'<a href="{escape(k["url"])}">{escape(k["name"])}</a>' for k in g["skills"])
+            body = self.cell_icons(g) + "<br>\n" + legend
+            out += ["    <tr>", f'      <th align="center">{escape(g["label"])}</th>',
+                    '      <td align="center">', textwrap.indent(body, "        "), "      </td>", "    </tr>"]
+        return "\n".join(out + ["  </tbody>", "</table>"])
 
     def profiles(self, links: list[dict]) -> str:
         return '<p align="center">\n  ' + "&nbsp;\n  ".join(self.icon(s) for s in links) + "\n</p>"
@@ -205,15 +242,19 @@ class Builder:
         ]
         for section in data["stack"]["sections"]:
             out += ["", f"## {section['title']}", ""]
-            out.append("\n\n".join(self.group(g) for g in section["groups"]))
+            if self.layout == "rows":  # un seul tableau par section
+                out.append(self.table_rows([g for t in section["tables"] for g in t]))
+            else:
+                out.append("\n\n".join(self.table(t) for t in section["tables"]))
         return "\n".join(out).replace("\n\n\n", "\n\n") + "\n"
 
 
 def all_skills(data: dict):
     yield from data["profiles"]["links"]
     for section in data["stack"]["sections"]:
-        for group in section["groups"]:
-            yield from group["skills"]
+        for table in section["tables"]:
+            for group in table:
+                yield from group["skills"]
 
 
 def main() -> int:
